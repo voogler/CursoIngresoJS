@@ -11,11 +11,11 @@ function Mostrar()
 
 if (edad>=18 && estadoCivil=="Soltero")
 
-	{
+{
 
-		alert("Es soltero y no es menor")
+alert("Es soltero y no es menor");
 	
-	}
+}
 
 
 }//FIN DE LA FUNCIÓN

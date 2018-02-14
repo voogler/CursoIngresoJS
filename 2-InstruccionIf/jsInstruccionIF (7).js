@@ -11,7 +11,7 @@ estadoCivil=document.getElementById('estadoCivil').value;
 
 /*
 
-if ((edad<18 && estadoCivil=="Casado")||(edad<18&&estadoCivil=="Divorciado"))
+if ((edad<18 && estadoCivil=="Casado")||(edad<18 && estadoCivil=="Divorciado"))
 
 	{
 		alert("Es muy pequeño para no ser soltero");		
@@ -20,13 +20,22 @@ if ((edad<18 && estadoCivil=="Casado")||(edad<18&&estadoCivil=="Divorciado"))
 */
 
 /*
-if (edad<18 && estadoCivil!="soltero")
+if (edad<18 && estadoCivil !="soltero")
 
 	{
 		alert("Es muy pequeño para no ser soltero");		
 	}
 */
 
+/*
+if (estadoCivil !="soltero") //uno adentro de otro si es &&
+{
+	if (edad<18) 
+	{
+		alert("Es muy pequeño para no ser soltero");
+	}
+}
+*/
 
 if (edad<18 && estadoCivil=="Casado")
 

@@ -4,7 +4,7 @@ function Mostrar()
 	
 	var aleatorio;
 		
-		aleatorio=Math.floor(Math.random()*(9)+1);
+	aleatorio=Math.floor(Math.random()*(9)+1);
 
 		
 	if (aleatorio==9 || aleatorio==10)

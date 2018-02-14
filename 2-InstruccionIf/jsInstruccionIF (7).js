@@ -20,7 +20,7 @@ if ((edad<18 && estadoCivil=="Casado")||(edad<18&&estadoCivil=="Divorciado"))
 */
 
 /*
-if (edad<18 & estadoCivil!="soltero")
+if (edad<18 && estadoCivil!="soltero")
 
 	{
 		alert("Es muy pequeño para no ser soltero");		

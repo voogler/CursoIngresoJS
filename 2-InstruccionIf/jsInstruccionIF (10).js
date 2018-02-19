@@ -4,31 +4,23 @@ function Mostrar()
 	
 	var aleatorio;
 		
-	aleatorio=Math.floor(Math.random()*(9)+1);
+	aleatorio=Math.floor(Math.random()*(10)+1);
 
-		
-	if (aleatorio==9 || aleatorio==10)
-
-		{
-			alert("EXCELENTE " + aleatorio)		
-		}
-
+	if(aleatorio>8)
+	{
+		alert("EXCELENTE "+aleatorio);
+	}
 	else
-
+	{
+		if(aleatorio<4)
 		{
-			if (aleatorio>=4 && aleatorio<=8)
-
-			{
-				alert("APROBO "+aleatorio);
-			}
-
-			else
-
-			{
-				alert("Vamos, la proxima se puede "+aleatorio);
-			}
+			alert("Vamos, la proxima se puede "+aleatorio);
 		}
-
+		else
+		{
+			alert("APROBÓ "+aleatorio);
+		}
+	}
 
 
 }//FIN DE LA FUNCIÓN
